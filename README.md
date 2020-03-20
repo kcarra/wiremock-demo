@@ -1,7 +1,7 @@
 ## Running inside of a docker container
 `docker build -t react-discovery-ui-wiremock .`
 
-`λ docker run --rm --name wiremock-demo -d -p 4040:4040 react-discovery-ui-wiremock`
+`λ docker run --rm --name wiremock-demo -d -p 4040:4040 wiremock-demo`
 
 ## Curl the mocked api
 `curl http://localhost:4040/api/testDataset`
