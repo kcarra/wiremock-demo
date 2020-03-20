@@ -1,5 +1,5 @@
 ## Running inside of a docker container
-`docker build -t react-discovery-ui-wiremock .`
+`docker build -t wiremock-demo .`
 
 `λ docker run --rm --name wiremock-demo -d -p 4040:4040 wiremock-demo`
 
